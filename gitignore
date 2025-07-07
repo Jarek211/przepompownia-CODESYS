@@ -1,0 +1,23 @@
+
+# Pliki tymczasowe CODESYS (Device.Application)
+*.bootinfo
+*.bootinfo_guids
+*.compileinfo
+
+# Pliki ustawień lokalnych CODESYS (opcje użytkownika)
+*-AllUsers.opt
+*-User-*.opt
+*-WszyscyUżytkownicy.opt
+
+# Pliki systemowe Windows
+Thumbs.db
+Desktop.ini
+
+# Pliki kopii zapasowych
+*.bak
+*.tmp
+~$*
+
+# Ignoruj katalog bin/obj jeśli tworzysz zewnętrzne narzędzia
+bin/
+obj/
